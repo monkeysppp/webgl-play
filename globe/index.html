@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="../../style.css" rel="stylesheet" type="text/css">
+  <script type="module" src="./draw.js"></script>
+  </head>
+  <body>
+    <h1>The Globe</h1>
+    <div class="container">
+      <p>
+        <a href="https://github.com/monkeysppp/webgl-play"><img src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg" class="d-block" loading="lazy" decoding="async" alt="GitHub mark" width="20" height="20"></a>
+      </p>
+      <p>
+        <a href="../../index.html">Home</a>
+      </p>
+      <p>Partly inspired by the <a href="https://github.blog/2020-12-21-how-we-built-the-github-globe/" target="_blank">GitHub globe</a>, and partly by
+        the <a href="https://youtu.be/6TfHqrWejdo" target="_blank">rebel briefing</a> in Return of the Jedi, I wanted to see if I could learn enough WebGL
+        to draw a globe made of points.  This started with reading through <a href="https://webglfundamentals.org/" target="_blank">webglfundamentals.org</a>
+        but then moved on to using <a href="https://threejs.org/" target="_blank">three.js</a>.</p>
+        <p>The colours for each point are based on the
+        <a href="https://visibleearth.nasa.gov/images/57752/blue-marble-land-surface-shallow-water-and-shaded-topography" target="_blank">Blue Marble</a>
+        image from NASA; We read in a 3840x1920 version of the image then map each point on the globe to a point in the image and get its colour.</p>
+    </div>
+    <div class="container">
+      <div id="canvasDiv" style="width: 1000px; height: 1000px;"></div>
+    </div>
+    </body>
+</html>
