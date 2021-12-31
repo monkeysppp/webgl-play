@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: inherit;
 }
@@ -13,6 +12,7 @@ html {
 }
 
 body {
+  padding: 10px;
   position: relative;
   min-height: 100%;
   background: #ffffff;
