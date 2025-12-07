@@ -3,7 +3,7 @@ Just playing about with some WebGL
 
 ## Demos
 
-Check them out [index.html](here)
+You can see them in action [here](https://monkeysppp.github.io/webgl-play/)
 
 ## Useful links
 
